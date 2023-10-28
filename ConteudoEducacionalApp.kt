@@ -1,3 +1,7 @@
+import entity.ConteudoEducacional
+import entity.Formacao
+import enums.Nivel
+import entity.Usuario
 import java.util.*
 
 fun main() {

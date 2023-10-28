@@ -1,3 +1,5 @@
+package entity
+
 data class Formacao(val nome: String, var conteudos: List<ConteudoEducacional>) {
     private var inscritos = mutableListOf<Usuario>()
     fun matricular(usuario: Usuario) {
